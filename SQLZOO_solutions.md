@@ -230,9 +230,9 @@ SELECT name, continent FROM world
 ```sql
 SELECT name, population FROM world
   WHERE population > (SELECT population FROM world
-                        WHERE name = 'Canada')
+                        WHERE name = 'United Kingdom')
     AND population < (SELECT population FROM world
-                        WHERE name = 'Poland')
+                        WHERE name = 'Germany')
 ```
 5.
 ```sql
