@@ -302,7 +302,7 @@ SELECT COUNT(name) FROM world
 5.
 ```sql
 SELECT SUM(population) FROM world
-  WHERE name IN ('France','Germany','Spain')
+  WHERE name IN ('Estonia','Latvia','Lithuania')
 ```
 6.
 ```sql
